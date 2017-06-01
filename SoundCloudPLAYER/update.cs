@@ -41,7 +41,7 @@ namespace TigerTube
 
                 try
                 {
-                    webClient.DownloadFileAsync(URL, pc);
+                    webClient.DownloadFileAsync(URL, Location);
                 }
                 catch (Exception ex)
                 {
