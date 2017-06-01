@@ -15,8 +15,7 @@ namespace TigerTube
 {
     public partial class update : Form
     {
-        string aa = "https://initiate.alphacoders.com/download/wallpaper/597309/images2/jpg/0945183157.jpg";
-        string pc = "mb.jpg";
+       
         WebClient webClient;
         Stopwatch sw = new Stopwatch();
         public update()
@@ -26,7 +25,7 @@ namespace TigerTube
 
         private void update_Load(object sender, EventArgs e)
         {
-            string DOWNLOADFILE = "http://releases.ubuntu.com/16.04.2/ubuntu-16.04.2-desktop-amd64.iso";
+            string DOWNLOADFILE = "COMING SOON";
             string filePath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             DownloadFile(DOWNLOADFILE, filePath);
